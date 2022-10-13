@@ -1,0 +1,179 @@
+*{
+    padding-top: 0%;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    }
+    .hero{
+        max-height: 100vh;
+        width: 100%;
+    }
+    body{
+        background-image: url(laundry);
+        background-size: cover;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-left: 8%;
+    }
+    .logo{
+        color: rgb(128, 204, 240);
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    span{
+        color: #fdeff4;
+    }
+    nav ul li{
+        list-style-type: georgian;
+        display: inline-block;
+        padding: 10px 25px;
+    
+    }
+    nav ul li a{
+        color: rgb(20, 49, 216);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    nav ul li a:hover{
+        color: #f9004d;
+        transition: .4s;
+    }
+    .btn{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: trasform .4s;
+    }.btn:hover{
+        transform: scale(1.2);
+    }
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+    }
+    h1{
+        color: rgb(12, 11, 11);
+        margin: 20px 0px 20px;
+        font-size: 75px;
+    }
+    h3{
+        color: rgb(24, 23, 23);
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    h4{
+        color: rgba(100, 44, 100, 0.8);
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    .newsletter form{
+        width:380px;
+        max-width: 100%;
+        position: relative;
+    }
+    .newsletter form input:first-child{
+        display: inline-block;
+        width: 100%;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid #f9004d;
+        outline: none;
+        border-radius: 30px;
+    }
+    .newsletter form input:last-child{
+        position: absolute;
+        display: inline-block;
+        outline: none;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+        top: 6px;
+        right: 6px;
+    }
+    .about-text{
+        width: 550px;
+    }
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: o auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about-text h2{
+        color: rgb(14, 12, 12);
+        font-size: 75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .about-text h5{
+        color: rgb(15, 14, 14);
+        letter-spacing: 2px;
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: rgba(8, 8, 8, 0.8);
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 28px;
+        margin-bottom: 45px;
+        font-weight: bolder;
+        margin-left: 0%;
+        align-items: flex-start;
+    }
+    button{
+         background-color: #f9004d;
+         color: white;
+         text-decoration: none;
+         border: 2px solid transparent;
+         font-weight: bold;
+         padding: 13px 30px;
+         border-radius: 30px;
+         transition: 4s;
+    }
+    button:hover{
+        background-color: transparent;
+        border: 2px solid
+    }
+    #suit{
+        margin-left: 60%; 
+        margin-right: 30%;
+        margin-top: -600px;
+        margin-bottom: 100px;
+        height: auto;
+        width: 700px;
+    }
+    .back {
+        background-color: #fff;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: left;
+        text-decoration: none;
+    }
+    .fa-facebook {
+        background: blue;
+        color: red;
+    }
+    div img{
+        width: 40px;
+        height: 30px;
+    }
