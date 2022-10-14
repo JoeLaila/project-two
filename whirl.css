@@ -21,7 +21,7 @@
         padding-left: 8%;
     }
     .logo{
-        color: rgb(128, 204, 240);
+        color: aqua;
         font-size: 35px;
         letter-spacing: 1px;
         cursor: pointer;
@@ -69,12 +69,12 @@
         font-size: 75px;
     }
     h3{
-        color: rgb(250, 245, 245);
+        color: aqua;
         font-size: 25px;
         margin-bottom: 50px;
     }
     h4{
-        color: rgba(117, 227, 235, 0.8);
+        color: aqua;
         letter-spacing: 2px;
         font-size: 20px;
         font-weight: bolder;
@@ -123,7 +123,7 @@
         margin-bottom: 20px;
     }
     .about-text h5{
-        color: rgb(113, 216, 235);
+        color:aqua;
         letter-spacing: 2px;
         font-size: 22px;
         text-transform: capitalize;
@@ -178,17 +178,16 @@
         width: 40px;
         height: 30px;
     }
-    bdo{
-        margin-left: 0%;
+    .bdo{
+        margin-left: 4%;
         align-items: flex-end;
-        padding-left: 0%;
+        padding-left: 9%;
 
     }
-    bdo{
-        margin: 20;
-        padding: 8;
-        background: url(logo);
-        background-size: cover;
+    .bdo{
+        margin: 300px;
+        padding: 120;
+        /*background-size: contain;*/
         background-position: center;
         font-family: 'Times New Roman', Times, serif;
         
@@ -198,8 +197,8 @@
         height: 420px;
         background: rgb(78, 154, 204);
         color: #fff;
-        top: 50%;
-        left: 50;
+        top: 600%;
+        left: 1000;
         transform: translate(50%,50%);
         box-sizing: border-box;
         padding: 70px 30px;
@@ -209,7 +208,7 @@
         height: 100px;
         border-radius: 50%;
         position: absolute;
-        top: -50%;
+        top: 50%;
         left: calc(50-50px);
         }
         h3{
@@ -256,4 +255,19 @@
         .loginbox a:hover
         {
             color: #ffc107;
+        }
+        .about-text h5{
+            color: aqua;
+        }
+        .about-text h2{
+            color: rgb(231, 76, 109);
+        }
+        .content h3 {
+            list-style: lower-roman;
+        }
+        .wraper{
+            margin:  10px auto;
+            margin: 0 10%;
+            padding-bottom: 10px;
+            text-transform: capitalize;
         }
