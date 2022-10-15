@@ -286,8 +286,12 @@
         }
         .damn{
             padding-inline-start: 0%;
-            padding-top: -100%;
+            padding-top: -120%;
+            height: -12px;
+            width: -6px;
         }
         .damn .how{
-            padding-bottom: 4%;
+            padding-bottom: -120%;
+            height: -12px;
+            width: -6px;
         }
