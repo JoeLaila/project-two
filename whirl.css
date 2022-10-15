@@ -284,3 +284,10 @@
         .bdo .container{
             background-color: aqua;
         }
+        .damn{
+            padding-inline-start: 0%;
+            padding-top: 6%;
+        }
+        .damn .how{
+            padding-bottom: 4%;
+        }
